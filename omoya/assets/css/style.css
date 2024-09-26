@@ -1,0 +1,199 @@
+/* Styling untuk pesan kesalahan */
+.error {
+    background-color: #f8d7da; /* Warna latar belakang merah muda */
+    color: #721c24; /* Warna teks merah tua */
+    border: 1px solid #f5c6cb; /* Border merah muda */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Styling untuk pesan keberhasilan */
+.message {
+    background-color: #d4edda; /* Warna latar belakang hijau muda */
+    color: #155724; /* Warna teks hijau gelap */
+    border: 1px solid #c3e6cb; /* Border hijau muda */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6347;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    background-color: #ff4500;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #ffe4e1;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.about-us, .menu, .location, .about {
+    margin: 40px 0;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 400px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+/* CSS untuk animasi fade-in */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
